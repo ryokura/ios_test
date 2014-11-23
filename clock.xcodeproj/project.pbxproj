@@ -14,6 +14,10 @@
 		02739FCA1A21CCE60068FC9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02739FC91A21CCE60068FC9D /* Images.xcassets */; };
 		02739FCD1A21CCE60068FC9D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02739FCB1A21CCE60068FC9D /* LaunchScreen.xib */; };
 		02739FD91A21CCE60068FC9D /* clockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02739FD81A21CCE60068FC9D /* clockTests.m */; };
+		02739FE61A21D06F0068FC9D /* hand1.png in Resources */ = {isa = PBXBuildFile; fileRef = 02739FE21A21D06F0068FC9D /* hand1.png */; };
+		02739FE71A21D06F0068FC9D /* hand2.png in Resources */ = {isa = PBXBuildFile; fileRef = 02739FE31A21D06F0068FC9D /* hand2.png */; };
+		02739FE81A21D06F0068FC9D /* hand3.png in Resources */ = {isa = PBXBuildFile; fileRef = 02739FE41A21D06F0068FC9D /* hand3.png */; };
+		02739FE91A21D06F0068FC9D /* mojiban.png in Resources */ = {isa = PBXBuildFile; fileRef = 02739FE51A21D06F0068FC9D /* mojiban.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		02739FD21A21CCE60068FC9D /* clockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02739FD71A21CCE60068FC9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02739FD81A21CCE60068FC9D /* clockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = clockTests.m; sourceTree = "<group>"; };
+		02739FE21A21D06F0068FC9D /* hand1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hand1.png; sourceTree = "<group>"; };
+		02739FE31A21D06F0068FC9D /* hand2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hand2.png; sourceTree = "<group>"; };
+		02739FE41A21D06F0068FC9D /* hand3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hand3.png; sourceTree = "<group>"; };
+		02739FE51A21D06F0068FC9D /* mojiban.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mojiban.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 		02739FBC1A21CCE60068FC9D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				02739FE21A21D06F0068FC9D /* hand1.png */,
+				02739FE31A21D06F0068FC9D /* hand2.png */,
+				02739FE41A21D06F0068FC9D /* hand3.png */,
+				02739FE51A21D06F0068FC9D /* mojiban.png */,
 				02739FBD1A21CCE60068FC9D /* Info.plist */,
 				02739FBE1A21CCE60068FC9D /* main.m */,
 			);
@@ -199,6 +211,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02739FE71A21D06F0068FC9D /* hand2.png in Resources */,
+				02739FE61A21D06F0068FC9D /* hand1.png in Resources */,
+				02739FE81A21D06F0068FC9D /* hand3.png in Resources */,
+				02739FE91A21D06F0068FC9D /* mojiban.png in Resources */,
 				02739FC81A21CCE60068FC9D /* Main.storyboard in Resources */,
 				02739FCD1A21CCE60068FC9D /* LaunchScreen.xib in Resources */,
 				02739FCA1A21CCE60068FC9D /* Images.xcassets in Resources */,
@@ -412,6 +428,7 @@
 				02739FDE1A21CCE60068FC9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02739FDF1A21CCE60068FC9D /* Build configuration list for PBXNativeTarget "clockTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +437,7 @@
 				02739FE11A21CCE60068FC9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
